@@ -14,7 +14,10 @@
   clear: both;
 } 
 
-
+.col-2 {
+	width:16.6666667%;
+	float: left;
+}
 
 * {
   -webkit-box-sizing: border-box;
