@@ -1,8 +1,3 @@
-.col-1 {
-	width: 8.3333333%;
-	float: left;
-} /*100/12*/
-
 .row:before {
   display: table;
   content: "";
@@ -14,10 +9,28 @@
   clear: both;
 } 
 
+
+.col-1 {
+	width: 8.3333333%;
+	float: left;
+} /*100/12*/
+
 .col-2 {
 	width:16.6666667%;
 	float: left;
-}
+}/*100/6*/
+
+.col-3 {
+	width:25%;
+	float: left;
+}/*100/4*/
+
+.col-4 {
+	width: 33.33333%;
+	float: left;
+}/*100/3*/
+
+
 
 * {
   -webkit-box-sizing: border-box;
